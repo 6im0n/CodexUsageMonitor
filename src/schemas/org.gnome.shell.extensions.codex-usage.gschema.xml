@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.codex-usage" path="/org/gnome/shell/extensions/codex-usage/">
+    <key name="show-icon" type="b"><default>true</default><summary>Show the icon</summary></key>
+    <key name="show-plan" type="b"><default>true</default><summary>Show the plan</summary></key>
+    <key name="show-percentage" type="b"><default>true</default><summary>Show usage percentages</summary></key>
+    <key name="show-reset" type="b"><default>false</default><summary>Show reset countdowns</summary></key>
+    <key name="panel-gauge" type="u">
+      <range min="0" max="2"/><default>0</default><summary>Panel gauge: ring, bar, or none</summary>
+    </key>
+    <key name="panel-windows" type="u">
+      <range min="0" max="2"/><default>0</default><summary>Usage windows shown in the panel: first, second, or both</summary>
+    </key>
+    <key name="poll-seconds" type="d">
+      <range min="60" max="1800"/><default>300.0</default><summary>Refresh interval in seconds</summary>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,36 @@
+/* Reuses the Claude Code Usage Monitor's panel and popup visual language. */
+.cu-panel { padding: 0 4px; spacing: 5px; }
+.cu-panel-icon { icon-size: 16px; }
+.cu-panel-tier { font-size: 9pt; font-weight: bold; color: rgba(128, 128, 128, 1); }
+.cu-panel-divider-line { width: 1px; height: 14px; background-color: rgba(128, 128, 128, 0.5); }
+.cu-panel-gauges { spacing: 8px; }
+.cu-panel-gauge { spacing: 5px; }
+.cu-panel-wtag { font-size: 8pt; font-weight: bold; color: rgba(128, 128, 128, 1); }
+.cu-panel-pct { font-weight: bold; font-feature-settings: "tnum"; }
+.cu-panel-pct.cu-warn { color: #ffa348; }
+.cu-panel-pct.cu-crit { color: #ff6b6b; }
+.cu-panel-reset { font-size: 9pt; font-feature-settings: "tnum"; color: rgba(128, 128, 128, 1); }
+.cu-panel-bar { width: 36px; height: 10px; border-radius: 99px; background-color: rgba(128, 128, 128, 0.3); }
+.cu-panel-bar-fill { height: 10px; border-radius: 99px; }
+.cu-panel-bar-fill.cu-ok, .cu-fill.cu-ok { background-color: #33d17a; }
+.cu-panel-bar-fill.cu-warn, .cu-fill.cu-warn { background-color: #ff7800; }
+.cu-panel-bar-fill.cu-crit, .cu-fill.cu-crit { background-color: #e01b24; }
+
+.cu-popup { width: 320px; spacing: 0; }
+.cu-profile-header { spacing: 11px; border-bottom: 1px solid rgba(128, 128, 128, 0.5); padding-bottom: 10px; margin-bottom: 10px; }
+.cu-logo { icon-size: 36px; }
+.cu-title { font-weight: bold; font-size: 12pt; }
+.cu-subtitle, .cu-caption, .cu-updated, .cu-error { font-size: 9pt; }
+.cu-subtitle, .cu-caption, .cu-updated { color: rgba(128, 128, 128, 1); }
+.cu-pill { font-size: 9pt; font-weight: bold; padding: 3px 9px; border-radius: 999px; color: #c6e3ff; background-color: rgba(53, 132, 228, 0.18); border: 1px solid rgba(53, 132, 228, 0.4); }
+.cu-meter { spacing: 5px; margin-bottom: 11px; }
+.cu-meter-row { spacing: 8px; }
+.cu-meter-name { font-size: 11pt; }
+.cu-meter-pct { font-weight: bold; font-feature-settings: "tnum"; }
+.cu-track { width: 300px; height: 7px; border-radius: 99px; background-color: rgba(128, 128, 128, 0.3); }
+.cu-fill { height: 7px; border-radius: 99px; }
+.cu-error { color: #ff9c8a; margin: 4px 0; }
+.cu-footer { spacing: 8px; border-top: 1px solid rgba(128, 128, 128, 0.5); margin-top: 10px; padding-top: 10px; }
+.cu-updated { margin-top: 6px; }
+.cu-refresh { font-size: 9pt; font-weight: bold; color: #62a0ea; padding: 4px 6px; border-radius: 6px; }
+.cu-refresh:hover { background-color: rgba(128, 128, 128, 0.20); }
